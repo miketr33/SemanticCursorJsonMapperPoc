@@ -1,0 +1,85 @@
+﻿{
+  "profile": {
+    "identity": {
+      "name": {
+        "firstName": "John",
+        "lastName": "Doe"
+      },
+      "identifiers": [
+        {
+          "type": "referenceId",
+          "value": "REF123456"
+        },
+        {
+          "type": "customerNumber",
+          "value": "CUST98765"
+        }
+      ]
+    },
+    "contact": {
+      "methods": [
+        {
+          "type": "email",
+          "value": "john.doe@example.com",
+          "isPrimary": true
+        },
+        {
+          "type": "phone",
+          "value": "555-123-4567",
+          "isPrimary": true
+        }
+      ]
+    }
+  },
+  "verification": {
+    "status": "PASS",
+    "matchConfidence": 0.95
+  },
+  "addresses": {
+    "items": [
+      {
+        "type": "current",
+        "isPrimary": true,
+        "details": {
+          "line1": "123 Main St",
+          "city": "Springfield",
+          "state": "IL",
+          "zipCode": "62701",
+          "country": "USA"
+        },
+        "verificationStatus": "verified"
+      },
+      {
+        "type": "previous",
+        "fromDate": "2018-01-01",
+        "toDate": "2021-12-31",
+        "details": {
+          "line1": "456 Oak Ave",
+          "city": "Chicago",
+          "state": "IL",
+          "zipCode": "60601",
+          "country": "USA"
+        }
+      },
+      {
+        "type": "previous",
+        "fromDate": "2015-05-01",
+        "toDate": "2017-12-31",
+        "details": {
+          "line1": "789 Pine Blvd",
+          "city": "New York",
+          "state": "NY",
+          "zipCode": "10001",
+          "country": "USA"
+        }
+      }
+    ],
+    "metadata": {
+      "lastUpdated": "2023-06-15"
+    }
+  },
+  "audit": {
+    "referenceId": "ALTERNATE_REF789",
+    "timestamp": "2023-10-23T14:22:33Z"
+  }
+}
